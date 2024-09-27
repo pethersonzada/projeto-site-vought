@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    display: block;
+}
+
+.cabecalho {
+    flex-basis: 30%;
+    padding: 5px;
+}
+
+.cabecalho li a:hover {
+    color: #48494b;
+}
+
+.cabecalho a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 30px;
+    vertical-align: top;
+}
+
+.cabecalho__logo {
+    margin-bottom: 50px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.cabecalho__logo img {
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.cabecalho__logo figcaption {
+    display: none;
+}
+
+.cabecalho__menuNavegacao{
+
+}
+
+.cabecalho__menuLista {
+
+}
+
+.cabecalho__menuItem {
+    margin: 10px;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 13px;
+}
+
+.cabecalho__menuItem img {
+    max-width: 35px;
+}
+
+.cabecalho__menuItem a {
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    vertical-align: top;
+}
+
+.conteudoPrincipal {
+    flex-basis: 70%;
+    border: none;
+}
+
+
+.conteudoPrincipal button:hover {
+    background-color: #1f1f1f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.busca {
+    align-items: center;
+    box-shadow: #1f1f1f;
+    display: flex;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.busca input {
+    color: #1f1f1f;
+}
+
+.busca img {
+    height: 30px;
+    width: 30px;
+}
+
+.conteudoPrincipal__pesquisa {
+    color: #1f1f1f;
+    display: inline-block;
+    width: 80%;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.conteudoPrincipal__trending {
+    gap: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudoPrincipal__trending img {
+    display: inline;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin: 20px -30px 20px 8px;
+}
+
+.conteudoPrincipal__titulo {
+    margin: 10px;
+    padding: 10px 30px;
+    color: #333333;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudoPrincipal__tituloEmAlta {
+    padding: 10px 30px;
+    color: #333333;
+    font-size: 23px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudoPrincipal__formulario {
+    border: 1px solid #1f1f1f;
+    border-radius: 25px;
+    padding: 10px 30px;
+    text-align: right;
+}
+
+.conteudoPrincipal__formulario textarea {
+    display: block;
+    width:  100%;
+    height: 130px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conteudoPrincipal__formulario button {
+    margin-top: 10px;
+    background-color: #333333;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 14.3px;
+    font-weight: bold;
+}
+
+.conteudoPrincipal__feed {
+    max-height: 450px;
+    overflow: auto;
+    height: calc(100vh - 430px); 
+}
+
+
+.conteudoPrincipal__listaPosts {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
+
+.conteudoPrincipal__posts {
+    padding: 20px 32px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #ddd;
+}
+
+.post_conteudo img {
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+
+.post_conteudo {
+    margin-left: 15px;
+}
+
+.post_conteudo h2 {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.post_conteudo span {
+    display: inline-block;
+    color: #828282;
+}
+
+.post_conteudo p {
+    margin-top: 15px;
+    color: #333333;
+}
