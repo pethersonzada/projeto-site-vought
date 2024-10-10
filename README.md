@@ -1,7 +1,8 @@
 Projeto de Rede Social - Vought
 
 Este projeto simula uma interface de rede social onde os usuários podem postar mensagens e visualizar um feed de postagens. O layout é inspirado em plataformas populares e possui um design responsivo.
-Funcionalidades
+
+Funcionalidades:
 
     Postar mensagens no feed principal.
     Exibir postagens de outros usuários.
