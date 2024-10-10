@@ -1,44 +1,34 @@
-# projeto-site-vought
+Projeto de Rede Social - Vought
 
-Vought
-
-Sobre o Projeto
-
-Vought é um projeto pessoal que simula uma rede social baseada no universo de The Boys. A ideia é criar uma interface interativa onde personagens fictícios podem compartilhar suas postagens e interagir uns com os outros, como se estivessem em uma rede social real.
-
-Este projeto foi criado para treinar habilidades em HTML, CSS e JavaScript, além de explorar conceitos de interação dinâmica em uma interface.
+Este projeto simula uma interface de rede social onde os usuários podem postar mensagens e visualizar um feed de postagens. O layout é inspirado em plataformas populares e possui um design responsivo.
 Funcionalidades
 
-    Postagens Dinâmicas: É possível criar posts personalizados com nome, foto de perfil e texto.
-    Feed em Tempo Real: Todas as postagens aparecem no feed logo após serem feitas, proporcionando uma experiência interativa.
-    Busca: Há uma barra de busca para simular a pesquisa de pessoas. (Ainda em desenvolvimento)
-    Personagens Fictícios: O projeto conta com personagens do universo de The Boys, como Homelander, Billy Butcher, Starlight, entre outros.
+    Postar mensagens no feed principal.
+    Exibir postagens de outros usuários.
+    Interface gráfica com layout limpo e organizado.
 
 Tecnologias Utilizadas
 
-    HTML5: Usado para estruturar o conteúdo.
-    CSS3: Para o estilo e layout da página.
-    JavaScript: Adiciona as funcionalidades dinâmicas, como criar postagens e atualizar o feed.
-    Google Fonts: A fonte "Roboto" foi utilizada para o design mais moderno.
+    HTML: Estrutura da página web.
+    CSS: Estilização do layout e dos elementos visuais.
+    JavaScript: Lógica de interação e dinamismo da aplicação.
 
-Como Usar
+Estrutura do Projeto
 
-    Baixe o projeto e abra o arquivo index.html no seu navegador.
-    Explore o feed e veja as postagens dos personagens.
-    Crie suas próprias postagens usando o campo de texto.
+    index.html: Estrutura principal da página.
+    style.css: Estilos para o layout e formatação dos elementos.
+    app.js: Script que contém a lógica para adicionar novas postagens ao feed.
+    reset.css: Estilos de reset para garantir consistência de design em diferentes navegadores.
+    img/: Pasta contendo as imagens usadas na interface (ícones e fotos de perfil).
 
-Objetivo do Projeto
+Como Funciona
 
-O principal objetivo deste projeto foi colocar em prática meus conhecimentos em desenvolvimento front-end, principalmente em relação à criação de interfaces dinâmicas e interativas usando tecnologias básicas como HTML, CSS e JavaScript.
-Próximos Passos
+    Ao abrir a página, o usuário verá um campo de texto e um botão "Postar".
+    O usuário pode inserir um texto e, ao clicar em "Postar", a mensagem será adicionada ao feed de postagens.
+    As postagens já existentes no feed mostram o nome, nome de usuário e a mensagem de outros perfis fictícios.
 
-Estou pensando em adicionar mais funcionalidades no futuro, como:
+Melhorias Futuras
 
-    Interações entre os posts (curtidas)
-    Melhorar a responsividade.
-
-Contato
-
-Se quiser saber mais sobre o projeto ou tiver sugestões, você pode me contatar pelo e-mail: pethersonzada@gmail.com
-
-Espero que você tenha gostado do Vought tanto quanto eu gostei de criá-lo!
+    Adicionar funcionalidade de curtidas e comentários nas postagens.
+    Melhorar a responsividade do layout.
+    Integrar com um banco de dados para armazenar postagens de forma permanente.
